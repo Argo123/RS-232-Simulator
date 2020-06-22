@@ -1,0 +1,16 @@
+C:\Users\micha\Source\Repos\RS-232\RS-232\bin\Debug\RS-232.exe.config
+C:\Users\micha\Source\Repos\RS-232\RS-232\bin\Debug\RS-232.exe
+C:\Users\micha\Source\Repos\RS-232\RS-232\bin\Debug\RS-232.pdb
+C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\RS-232.csprojAssemblyReference.cache
+C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\MainWindow.g.cs
+C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\App.g.cs
+C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\RS-232_MarkupCompile.cache
+C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\RS-232_MarkupCompile.lref
+C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\MainWindow.baml
+C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\RS-232.g.resources
+C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\RS_232.Properties.Resources.resources
+C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\RS-232.csproj.GenerateResource.cache
+C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\RS-232.exe
+C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\RS-232.pdb
+C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\ConfigureWindow.g.cs
+C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\ConfigureWindow.baml

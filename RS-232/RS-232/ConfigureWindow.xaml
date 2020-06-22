@@ -1,0 +1,25 @@
+﻿<Window x:Class="RS_232.ConfigureWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RS_232"
+        mc:Ignorable="d"
+        Title="ConfigureWindow" Height="450" Width="300.5">
+    <Grid>
+        <Label x:Name="label" Content="PORT:" HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Prędkość:" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Format znaków:" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Handshake:" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="Terminator:" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.132,-0.769"/>
+        <Label x:Name="label5" Content="Własny terminator:" HorizontalAlignment="Left" Margin="10,175,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="PortComboBox" HorizontalAlignment="Left" Margin="143,24,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="SpeedComboBox" HorizontalAlignment="Left" Margin="143,55,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="FormatComboBox" HorizontalAlignment="Left" Margin="143,86,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="HandshakeComboBox" HorizontalAlignment="Left" Margin="143,117,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="TerminatorComboBox" HorizontalAlignment="Left" Margin="143,148,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="TerminatorComboBox_SelectionChanged"/>
+        <TextBox x:Name="TerminatorTextBox" IsEnabled="False" HorizontalAlignment="Left" Height="23" Margin="143,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="ConfigureButton" Content="Configure" HorizontalAlignment="Left" Margin="90,228,0,0" VerticalAlignment="Top" Width="91" Height="44" Click="ConfigureButton_Click"/>
+
+    </Grid>
+</Window>
