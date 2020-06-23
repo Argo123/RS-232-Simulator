@@ -8,11 +8,11 @@
         Title="ConfigureWindow" Height="450" Width="300.5">
     <Grid>
         <Label x:Name="label" Content="PORT:" HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label1" Content="Prędkość:" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top"/>
-        <Label x:Name="label2" Content="Format znaków:" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Baud rate:" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Sign format:" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label3" Content="Handshake:" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top"/>
         <Label x:Name="label4" Content="Terminator:" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.132,-0.769"/>
-        <Label x:Name="label5" Content="Własny terminator:" HorizontalAlignment="Left" Margin="10,175,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label5" Content="Custom terminator:" HorizontalAlignment="Left" Margin="10,175,0,0" VerticalAlignment="Top"/>
         <ComboBox x:Name="PortComboBox" HorizontalAlignment="Left" Margin="143,24,0,0" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="SpeedComboBox" HorizontalAlignment="Left" Margin="143,55,0,0" VerticalAlignment="Top" Width="120"/>
         <ComboBox x:Name="FormatComboBox" HorizontalAlignment="Left" Margin="143,86,0,0" VerticalAlignment="Top" Width="120"/>

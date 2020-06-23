@@ -12,6 +12,7 @@ namespace RS_232
     {
         private Stopwatch stopWatch = new Stopwatch();
         private SerialPort serialPort;
+        public int slaveAddress;
 
         public List<string> GetPortNames()
         {

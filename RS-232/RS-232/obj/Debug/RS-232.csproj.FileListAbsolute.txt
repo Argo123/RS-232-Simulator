@@ -14,3 +14,12 @@ C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\RS-232.exe
 C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\RS-232.pdb
 C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\ConfigureWindow.g.cs
 C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\ConfigureWindow.baml
+C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\ConfigureModbusWindow.g.cs
+C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\ModbusWindow.g.cs
+C:\Users\micha\Source\Repos\RS-232\RS-232\bin\Debug\EasyModbus.dll
+C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\ConfigureModbusWindow.baml
+C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\ModbusWindow.baml
+C:\Users\micha\Source\Repos\RS-232\RS-232\obj\Debug\RS-232.csproj.CopyComplete
+C:\Users\micha\Source\Repos\RS-232\RS-232\bin\Debug\Code4Bugs.Utils.dll
+C:\Users\micha\Source\Repos\RS-232\RS-232\bin\Debug\Newtonsoft.Json.dll
+C:\Users\micha\Source\Repos\RS-232\RS-232\bin\Debug\Newtonsoft.Json.xml

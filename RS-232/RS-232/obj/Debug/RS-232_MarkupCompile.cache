@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\micha\Source\Repos\RS-232\RS-232\App.xaml
-21241990713
+4-1405326818
 
-71359851767
-14-1609446650
-ConfigureWindow.xaml;MainWindow.xaml;
+10732451972
+17-2027752674
+ConfigureModbusWindow.xaml;ConfigureWindow.xaml;MainWindow.xaml;ModbusWindow.xaml;
 
 False
 

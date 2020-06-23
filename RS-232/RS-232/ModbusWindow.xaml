@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RS_232"
         mc:Ignorable="d"
-        Title="ModbusWindow" Height="450" Width="800">
+        Title="ModbusWindow" Height="561.946" Width="372.131">
     <Grid>
-        
+        <Button x:Name="configureButton" Content="Configure" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="100" Height="36" Click="configureButton_Click"/>
+        <RichTextBox IsEnabled="False" x:Name="richTextBox" HorizontalAlignment="Left" Height="423" Margin="10,98,0,0" VerticalAlignment="Top" Width="344">
+            <FlowDocument>
+                <Paragraph>
+                    <Run/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <TextBox IsEnabled="False" x:Name="sendtextBox" HorizontalAlignment="Left" Height="26" Margin="10,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="100"/>
+        <Button IsEnabled="False" x:Name="sendButton" Content="Send" HorizontalAlignment="Left" Margin="288,67,0,0" VerticalAlignment="Top" Width="66" Height="26" Click="sendButton_Click"/>
+        <ComboBox IsEnabled="False" x:Name="comboBox" HorizontalAlignment="Left" Margin="234,40,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button IsEnabled="False" x:Name="clearButton" Content="Clear" HorizontalAlignment="Left" Margin="115,10,0,0" VerticalAlignment="Top" Width="97" Height="36" Click="clearButton_Click"/>
+        <Label x:Name="labelAdress" Content="Address:" HorizontalAlignment="Left" Margin="269,14,0,0" VerticalAlignment="Top"/>
+        <TextBox IsEnabled="False" x:Name="argumentTextBox" HorizontalAlignment="Left" Height="26" Margin="115,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="97"/>
+        <Label x:Name="label" Content="Operation" HorizontalAlignment="Left" Margin="28,46,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Argument" HorizontalAlignment="Left" Margin="132,46,0,0" VerticalAlignment="Top"/>
+        <Button IsEnabled="False" x:Name="broadcastButton" Content="Broadcast" HorizontalAlignment="Left" Margin="217,67,0,0" VerticalAlignment="Top" Width="66" Height="26" Click="broadcastButton_Click"/>
     </Grid>
 </Window>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="RS_232.ConfigureModbusWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RS_232"
+        mc:Ignorable="d"
+        Title="ConfigureWindow" Height="450" Width="300.5">
+    <Grid>
+        <Label x:Name="label" Content="PORT:" HorizontalAlignment="Left" Margin="10,20,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Baud rate:" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Sign format:" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label3" Content="Station type:" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label4" Content="Retransmission:" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.132,-0.769"/>
+        <Label x:Name="label5" Content="Address:" HorizontalAlignment="Left" Margin="10,175,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="PortComboBox" HorizontalAlignment="Left" Margin="143,24,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="SpeedComboBox" HorizontalAlignment="Left" Margin="143,55,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="FormatComboBox" HorizontalAlignment="Left" Margin="143,86,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="StationTypeComboBox" HorizontalAlignment="Left" Margin="143,117,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="StationTypeComboBox_SelectionChanged"/>
+        <ComboBox x:Name="RetransmissionComboBox" HorizontalAlignment="Left" Margin="143,148,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="ConfigureButton" Content="Configure" HorizontalAlignment="Left" Margin="90,228,0,0" VerticalAlignment="Top" Width="91" Height="44" Click="ConfigureButton_Click"/>
+        <ComboBox x:Name="adressComboBox" HorizontalAlignment="Left" Margin="143,179,0,0" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

@@ -19,6 +19,6 @@
         <TextBox x:Name="TextBox" IsEnabled="False" HorizontalAlignment="Left" Height="32" Margin="10,93,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202"/>
         <Button x:Name="PingButton" IsEnabled="False" Content="Ping" HorizontalAlignment="Left" Margin="101,36,0,0" VerticalAlignment="Top" Width="80" Height="37" Click="PingButton_Click"/>
         <Button x:Name="ClearButton" IsEnabled="False" Content="Clear" HorizontalAlignment="Left" Margin="193,36,0,0" VerticalAlignment="Top" Width="80" Height="37" Click="ClearButton_Click"/>
-
+        <Button x:Name="modbusButton" Content="Modbus" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="263" Click="modbusButton_Click"/>
     </Grid>
 </Window>
